@@ -214,6 +214,13 @@ font-weight: 700;
   border-radius: 32px;
   
   background-color: #121212;
+  transition: all 3s linear;
+}
+
+.tutorial-item:hover{
+  transform: scale(1.2);
+  
+
 }
 
 .tutorial-span{
@@ -225,6 +232,7 @@ color: #80D119;
 margin-bottom: 40px;
 display: block;
 }
+
 .tutorial-step{
   font-family: "Inter", serif;
   font-weight: 700;
@@ -356,6 +364,7 @@ transition:3s ease-in ;
   color: #80D119;
   cursor: pointer;
 }
+
 
 
 
