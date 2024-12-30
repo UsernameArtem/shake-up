@@ -190,6 +190,14 @@ font-weight: 700;
  font-size: 14px;
  text-transform: uppercase;
  margin-top: 24px;
+ transition:3s ease-in ;
+
+ 
+
+}
+.hero-button:hover{
+  transform: scale(1.5);
+  cursor: pointer;
 }
 .container{margin: 0 auto;
     width: 1200px;
@@ -260,6 +268,13 @@ color:white ;
   font-size: 56px;
   line-height: 60px;
 color:white ;
+transition:3s ease-in
+
+}
+.tutorial-title:hover{
+  color: #80D119;
+  transform: scale(1.2);
+
 }
 .tutorial-description{
   font-family: "Inter", serif;
@@ -267,6 +282,7 @@ color:white ;
   font-size: 16px;
   line-height: 24px;
 color:white ;
+
 
 }
 .tutorial-wrap{
@@ -287,12 +303,21 @@ color:white ;
   width: 120px;
   margin: 0 auto;
   margin-bottom: 48px;
+  display: block;
+  color: white;
+  transition:3s ease-in ;
 
+
+}
+.footer-logo:hover{
+  color: #80D119;
+  cursor: pointer;
 }
 
 .footer{
   background-color:#040D02 ;
   padding-top: 96px;
+  padding-bottom:96px ;
 }
 .footer-list-text{
   font-family: "Inter", serif;
@@ -301,19 +326,36 @@ color:white ;
   line-height: 24px;
   color: white ;
 text-align: center;
+transition:3s ease-in ;
+
+
 
 
 }
+
+.footer-list-text:hover{ color: #80D119;
+  cursor: pointer;}
 .socials-list{
   display: flex;
   gap: 16px ;
   justify-content: center;
+  
 }
 
 .footer-list{
   margin-bottom: 48px;
 }
+.footer-socials{
+  color: white;
+  transition:3s ease-in ;
 
+
+}
+
+.footer-socials:hover{
+  color: #80D119;
+  cursor: pointer;
+}
 
 
 
